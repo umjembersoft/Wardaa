@@ -1,0 +1,65 @@
+http://www.stiki.ac.id/templates/teky/images/logo1.png
+
+GET /templates/teky/images/logo1.png HTTP/1.1
+-method HTTP yang digunakan untuk meminta resource tertentu dari server -
+
+
+Host: www.stiki.ac.id
+-Host merupakan nama komputer. Pemberian nama ini spesifik, untuk satu komputer tertentu saja dalam suatu jaringan -
+
+
+User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:12.0) Gecko/20100101 Firefox/12.0
+- User Agent merupakan identitas dari browser yang sedang digunakan, disini User menggunakan browser Mozilla Firefox User Agent berupa sederatan kode string informasi yang dikirim ke web server dari browser yang kita gunakan saat mengakses sebuah halaman web -
+
+
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+
+
+Accept-Language: en-us,en;q=0.5
+- server dapat menerima bahasa "english-United Stated -
+
+
+Accept-Encoding: gzip, deflate
+- header accept-Encoding: untuk menerima pengkodean gzip, deflate dalam permintaan HTTP. GZIP adalah metode kompresi yang paling efektif yang tersedia saat ini -
+
+
+Connection: keep-alive
+- Koneksi yang dapat diakses -
+
+
+Referer: http://www.stiki.ac.id/
+
+Cookie: testcookie=1380531411; stats_res=1024x600; __utma=163465086.1559065343.1380529967.1380529967.1380529967.1; __utmb=163465086.2.10.1380529967; __utmz=163465086.1380529967.1.1.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); unique=1380530004; tabPengumuman=0; tabWorkshop=0; __utmc=163465086
+- Membantu web site untuk “mengingat” siapa kita dan mengatur preferences yang sesuai sehingga apabila user kembali mengunjungi web site tersebut akan langsung dikenali -
+
+
+
+
+
+
+HTTP/1.1 200 OK
+- Koneksi yang dapat diakses -
+
+Date: Mon, 30 Sep 2013 08:57:18 GMT
+- Waktu User saat mengakses web www.stiki.ac.id/templates/teky/images/logo1.png
+
+GET /templates/teky/images/log-
+
+
+Server: Apache
+-servernya berupa apache-
+
+Last-Modified: Thu, 04 Apr 2013 08:55:05 GMT
+-tanggal pengaksesaan terakhir-
+
+Accept-Ranges: bytes
+-bentuk karakter-
+
+Content-Length: 19645
+-panjang konteks yang tertera di HTTP headers-
+
+Connection: close
+-menutup koneksi-
+
+Content-Type: image/png
+-type gambar yang diakses berupa JPG-
